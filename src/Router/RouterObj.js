@@ -54,7 +54,7 @@ export const privatePath =[
         component: <PendingFees />
     },
     {
-        path: path.currentMonthLedger
+        path: path.currentMonthLedger,
         component: <CurrenMonthLedger />
     }
 
