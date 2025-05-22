@@ -1,13 +1,10 @@
 import { BrowserRouter } from "react-router-dom"
-import { LoginDashRoutes } from "./Router/LoginDashRoutes/LoginDashRoutes"
-// import PrivateLayout from "./common/Private/PrivateLayout"
-// import WindowNavbar from "./common/Private/WindowNavbar"
+import { Router } from "./Router/Router"
 
 function App() {
 
   return (<BrowserRouter>
-    <LoginDashRoutes />
-
+    <Router />
   </BrowserRouter>)
 
 

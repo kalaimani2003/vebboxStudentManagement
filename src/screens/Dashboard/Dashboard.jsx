@@ -1,6 +1,8 @@
 import React from 'react'
-import { DashboardComp } from '../../components/DaboardComp/DashboardComp'
 
 export const Dashboard = () => {
-  return <DashboardComp/>
+  return (
+    <div>Dashboard</div>
+  )
 }
+
