@@ -3,7 +3,31 @@
   --secondaryColor: #8F9DC8;
 
   --primariBgcolor: #E8EBFF;
-  --secondaryWhite: white;
+  --White: white;
 
   --primary-inputBg: #F7F6F6;
+
+
+
+
+  --white-color: hsl(0, 0%, 100%);
+  --white-hover-color: hsl(0, 5%, 85%);
+  --body-font: "Poppins", sans-serif;
+  --h1-font-size: 1.75rem;
+  --normal-font-size: 1rem;
+  --small-font-size: .813rem;
+  --font-medium: 500;
 }
+
+/* :root {
+
+  --white-color: hsl(0, 0%, 100%);
+  --white-hover-color: hsl(0, 5%, 85%);
+  --primary-color: #115995;
+
+  --body-font: "Poppins", sans-serif;
+  --h1-font-size: 1.75rem;
+  --normal-font-size: 1rem;
+  --small-font-size: .813rem;
+  --font-medium: 500;
+} */
