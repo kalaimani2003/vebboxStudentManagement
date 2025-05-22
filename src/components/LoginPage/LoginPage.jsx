@@ -125,7 +125,7 @@ export const LoginPage = () => {
                             <label htmlFor="login-check" className="login__check-label">Remember me</label>
                         </div>
 
-                        <a href="#" className="login__forgot">Forgot Password?</a>
+                        <a href="#" className="login__forgot" onClick={()=>navigate("/ForgetPage")}>Forgot Password?</a>
                     </div>
 
                     <button type="submit" className="login__button">Login</button>
