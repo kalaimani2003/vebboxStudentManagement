@@ -1,7 +1,8 @@
 import React from 'react'
 
 export const MentorRegister = () => {
-  return (
+ return (
     <div>MentorRegister</div>
   )
 }
+

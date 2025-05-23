@@ -1,0 +1,84 @@
+/* ForgetPassword.css */
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #2d4fa2;
+}
+
+.forget-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.forget-card {
+  background-color: #fff;
+  padding: 3rem 2.5rem;
+  border-radius: 16px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  max-width: 420px;
+  text-align: left;
+}
+
+.title {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  color: #2d4fa2;
+}
+
+.subtitle {
+  color: #555;
+  margin-bottom: 2rem;
+  font-size: 0.95rem;
+}
+
+.label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+  color: #333;
+}
+
+.input {
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  background-color: #f3f6fa;
+  margin-bottom: 1.5rem;
+  pointer-events: none;
+}
+
+.submit-btn {
+  width: 100%;
+  background-color: #2d4fa2;
+  color: white;
+  border: none;
+  padding: 0.75rem;
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.footer-links a {
+  color: #2d4fa2;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
