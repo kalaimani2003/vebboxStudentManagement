@@ -1,13 +1,16 @@
 import { BrowserRouter } from "react-router-dom"
 import { Router } from "./Router/Router"
+import ResponsiveDrawer from "./components/Navbar/NavSidebar/NavSidebar"
 
 
 function App() {
 
-  return (<BrowserRouter>
-    <Router />
+  // return (<BrowserRouter>
+  //   <Router />
 
-  </BrowserRouter>)
+  // </BrowserRouter>)
+
+return <ResponsiveDrawer/>
 
 
 }
